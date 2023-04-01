@@ -1,0 +1,12 @@
+.footer__rights {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat";
+}
+
+@media screen and (max-width: 700px) {
+  .footer__rights {
+    width: 90%;
+    margin-right: 0 auto;
+  }
+}

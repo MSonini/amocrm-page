@@ -1,0 +1,18 @@
+.container__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 262px;
+  height: 61px;
+
+  background: #4077f3;
+
+  margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .container__button {
+    display: none;
+  }
+}

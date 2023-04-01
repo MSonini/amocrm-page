@@ -1,0 +1,18 @@
+.container__item-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+
+  color: #e4e5ea;
+
+  margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .container__item-text {
+    display: none;
+  }
+}

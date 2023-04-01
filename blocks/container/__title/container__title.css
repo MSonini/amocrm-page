@@ -1,0 +1,17 @@
+.container__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  /* light text */
+
+  color: #e4e5ea;
+}
+
+@media screen and (max-width: 700px) {
+  .container__title {
+    text-align: left;
+  }
+}

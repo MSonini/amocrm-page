@@ -1,0 +1,19 @@
+.footer__rights-link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  text-align: right;
+  text-decoration-line: underline;
+
+  color: #e4e5ea;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__rights-link {
+    width: 90%;
+    text-align: left;
+  }
+}

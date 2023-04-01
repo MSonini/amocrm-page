@@ -1,0 +1,7 @@
+.footer__list-img {
+  margin-right: 10px;
+}
+
+.footer__list-img:last-child {
+  margin-right: 0;
+}

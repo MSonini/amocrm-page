@@ -1,0 +1,13 @@
+.background {
+  position: relative;
+  max-width: 1440px;
+  /* top: 0; */
+  margin: 0 auto;
+  z-index: -1;
+}
+
+@media screen and (max-width: 700px) {
+  .background {
+    width: 100%;
+  }
+}

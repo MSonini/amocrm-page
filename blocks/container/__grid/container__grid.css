@@ -1,0 +1,14 @@
+.container__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(auto-fit, minmax(min-content, auto));
+  margin-bottom: 60px;
+  gap: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .container__grid {
+    width: 100%;
+    margin: 0 auto 65px;
+  }
+}

@@ -1,0 +1,16 @@
+.footer__rights-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  text-align: right;
+
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__rights-text {
+    text-align: left;
+  }
+}
